@@ -1,6 +1,6 @@
 FROM python:3.11-slim
 
-# Install ODBC dependencies
+# Install ODBC + SQL Server drivers
 RUN apt-get update && apt-get install -y \
     unixodbc \
     unixodbc-dev \
